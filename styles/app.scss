@@ -2,6 +2,7 @@ $c-full-page: #0c93b5;
 $c-top-nav: #fff;
 $c-top-nav__bck: #0f3b60;
 $c-hero-intro: #11059f;
+$c-hero-title__bck: #fff;
 $gutter: 1rem;
 
 
@@ -11,4 +12,5 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'reset';
 @import 'components/full-page';
 @import 'components/top-nav';
-@import 'components/hero-intro'
+@import 'components/hero-intro';
+@import 'components/hero-title';
