@@ -1,4 +1,11 @@
 .hero-intro {
   margin: $gutter;
   padding: $gutter;
+  text-align: center;
+  font-size: 2rem;
+
+  &__bottom {
+    color: $c-top-nav;
+    background: $c-full-page
+  }
 }
