@@ -18,11 +18,16 @@
   min-width: 10rem;
 }
 
-.double-container {
-  @media(max-width: 479px) {
+.reverse-container {
+  @media(max-width: 733px) {
     flex-wrap: wrap-reverse;
   }
+}
 
+.odd-ball {
+  @media(max-width: 479px) {
+  flex-grow: 1;
+  }
 }
 
 
@@ -49,11 +54,4 @@
 }
   padding: 0 0 0 2rem;
 
-}
-
-.double-container {
-  @media(max-width: 479px) {
-    display: flex;
-    flex-direction: column-reverse;
-  }
 }
