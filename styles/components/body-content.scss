@@ -13,11 +13,12 @@
 .container {
   margin: $gutter;
 
-  @media(min-width: 480px) and (max-width: 760px) {
-  display: flex;
-  flex-direction: row;
-    flex-wrap: wrap;
-    background: blue;
+  @media(min-width: 480px) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+    // background: blue;
   }
 }
 
@@ -26,17 +27,20 @@
 .body-content__title {
   padding: $gutter;
 
-  @media(min-width: 480px) and (max-width: 760px) {
-    max-width: 50%;
+  @media(min-width: 480px) {
+    max-width: 20rem;
   }
+  // @media(min-width: 761px) {
+    // max-width: 35%;
+  // }
 }
 
 .body-content__img {
   min-width: 50%;
   padding: 4rem 0;
 
-  @media(min-width: 480px) and (max-width: 760px) {
-    max-width: 50%;
+  @media(min-width: 480px) {
+    max-width: 20rem;
   }
 
 }
