@@ -11,10 +11,10 @@
 }
 
 .container {
-  margin: $gutter;
   display: flex;
+  margin: $gutter;
 
-  @media(min-width: 480px) and (max-width: 760px){
+  @media(min-width: 480px) and (max-width: 760px) {
     flex-wrap: wrap;
   }
 }
@@ -22,7 +22,7 @@
 
 
 .body-content__title {
-    padding: $gutter;
+  padding: $gutter;
 }
 
 .body-content__img {
