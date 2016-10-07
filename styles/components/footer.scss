@@ -1,20 +1,14 @@
 .footer {
-  margin: $gutter;
   padding: $gutter;
   background: $c-footer;
   color: $c-footer-icons;
   text-align: center;
 }
-  // @media(min-width: 480px) and (max-width: 760px) {
-  // min-width: 20rem;
-  // }
-
 
 
 .container-footer {
   display: flex;
   justify-content: space-around;
-  width: 80%;
   margin: auto;
 
 }
