@@ -3,6 +3,8 @@ $c-top-nav: #fff;
 $c-top-nav-bck: #0f3b60;
 $c-hero-intro: #11059f;
 $c-hero-title-bck: #fff;
+$c-footer: #000;
+$c-footer-icons: #fff;
 $gutter: 1rem;
 
 
@@ -15,3 +17,4 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'components/hero-intro';
 @import 'components/hero-title';
 @import 'components/body-content';
+@import 'components/footer';
