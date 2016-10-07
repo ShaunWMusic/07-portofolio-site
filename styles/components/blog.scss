@@ -1,0 +1,46 @@
+.container {
+  max-width: 65rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 1rem;
+}
+
+.profile__header-card {
+  background: #da310c;
+  position: relative;
+  box-shadow:0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4);
+}
+
+.profile-card {
+  width: calc(70% * 2 / 4 - 1rem - 1rem);
+  min-width: 25%;
+  margin: 2rem;
+  box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4);
+}
+
+.header-card {
+  margin: 0.8rem;
+  padding: 1rem;
+
+}
+
+.header-card-week-1 {
+  position: absolute;
+  right: 0;
+  bottom: 100%;
+  margin: 0;
+  padding: 0.5rem;
+  transform: translate( -50%, 50%);
+  background: yellowgreen;
+  box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4);
+}
+
+
+.body-card {
+  margin: 1rem;
+}
