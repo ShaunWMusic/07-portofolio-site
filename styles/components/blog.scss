@@ -3,6 +3,10 @@
   margin: 0 auto;
 }
 
+.blog {
+  padding: $gutter;
+}
+
 .grid {
   display: flex;
   flex-wrap: wrap;
