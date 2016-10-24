@@ -4,11 +4,11 @@
 }
 
 .grid-container {
-  display: flex;
-  flex-wrap: wrap;
+  max-width: 65rem;
+  margin: 0 auto;
 }
 
-.container {
+.grid-item {
   display: flex;
   flex-grow: 1;
   flex-wrap: wrap;
@@ -18,7 +18,7 @@
   margin: $gutter;
 }
 
-.reverse-container {
+.reverse-item {
   @media(max-width: 733px) {
     flex-wrap: wrap-reverse;
   }
