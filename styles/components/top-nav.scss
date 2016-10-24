@@ -1,16 +1,25 @@
 .top-nav {
   box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4);
   color: $c-top-nav;
+  padding: $gutter;
   background: $c-top-nav-bck;
+
 
   &__container {
     display: flex;
-    justify-content: space-around;
-    margin: $gutter;
+    justify-content: space-between;
+    max-width: 65rem;
+    margin: 0 auto;
   }
+
+  &__name {
+    margin: 0;
+  }
+
   &__list {
     display: flex;
     justify-content: center;
+    margin: 0;
   }
   &__list--item a {
     color: $c-top-nav;
