@@ -27,12 +27,12 @@
 .odd-ball {
   @media(max-width: 479px) {
   flex-grow: 1;
+  padding: 0 1rem 0 0;
   }
 }
 
 
 .body-content__title {
-  padding: 0 0 0 1rem;
   flex-grow: 1;
   @media(min-width: 480px) and (max-width: 779px) {
   flex-basis: calc(50% - #{$gutter});
@@ -45,6 +45,7 @@
 }
 
 .body-content__img {
+  padding-right: 1rem;
   flex-grow: 1;
   @media(min-width: 480px) and (max-width: 779px) {
   flex-basis: calc(50% - #{$gutter});
@@ -52,6 +53,6 @@
   @media(min-width: 780px) {
   flex-basis: calc(25% - #{$gutter});
 }
-  padding: 0 0 0 2rem;
+
 
 }
