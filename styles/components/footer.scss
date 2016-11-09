@@ -8,7 +8,9 @@
 
 .container-footer {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   margin: 1rem;
-
+  a {
+    margin: 0 1rem;
+  }
 }
