@@ -1,4 +1,24 @@
+$c-full-page: #0c93b5;
+$c-top-nav: #fff;
+$c-top-nav-bck: #0f3b60;
+$c-hero-intro: #11059f;
+$c-hero-title-bck: #fff;
+$c-footer: #000;
+$c-footer-icons: #fff;
+$c-blog-header: #8b2020;
+$c-photo: #dbd3fc;
+$gutter: 1rem;
+
 
 $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'font-awesome/scss/font-awesome';
 @import 'box-sizing';
+@import 'reset';
+@import 'components/full-page';
+@import 'components/top-nav';
+@import 'components/hero-intro';
+@import 'components/hero-title';
+@import 'components/body-content';
+@import 'components/footer';
+@import 'components/blog';
+@import 'components/photo';

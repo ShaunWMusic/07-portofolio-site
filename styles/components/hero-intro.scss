@@ -1,0 +1,18 @@
+.hero-intro {
+  // margin: $gutter;
+  padding: $gutter;
+  text-align: center;
+  font-size: 2rem;
+  width: 100%;
+  background: $c-full-page;
+
+  &__bottom {
+    color: $c-top-nav;
+    background: $c-full-page
+  }
+  &__container {
+    max-width: 65rem;
+    margin: 0 auto;
+
+  }
+}

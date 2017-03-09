@@ -1,0 +1,16 @@
+.footer {
+  padding: $gutter;
+  background: $c-footer;
+  color: $c-footer-icons;
+  text-align: center;
+}
+
+
+.container-footer {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+  a {
+    margin: 0 1rem;
+  }
+}
